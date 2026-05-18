@@ -1,0 +1,48 @@
+Analyzing flew4u...
+
+  error - lib\screens\auth\profile_screen.dart:29:23 - Expected to find ';'. - expected_token
+  error - lib\screens\trips\create_trip_screen.dart:124:16 - The await expression can only be used in an async function. Try marking the function body with either 'async' or 'async*'. - await_in_wrong_context
+  error - lib\screens\trips\create_trip_screen.dart:125:3 - The instance member 'context' can't be accessed in an initializer. Try replacing the reference to the instance member with a different expression - implicit_this_reference_in_initializer
+  error - lib\screens\trips\create_trip_screen.dart:129:1 - Expected a class member. Try placing this code inside a class member. - expected_class_member
+  error - lib\screens\trips\create_trip_screen.dart:129:4 - Expected an identifier. - missing_identifier
+  error - lib\screens\trips\create_trip_screen.dart:129:12 - Expected to find ')'. - expected_token
+  error - lib\screens\trips\create_trip_screen.dart:130:3 - The method 'loadTrips' isn't defined for the type '_CreateTripScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'loadTrips'. - undefined_method
+  error - lib\screens\trips\create_trip_screen.dart:132:1 - Methods must have an explicit list of parameters. Try adding a parameter list. - missing_method_parameters
+  error - lib\screens\trips\create_trip_screen.dart:132:1 - The name of a constructor must match the name of the enclosing class. - invalid_constructor_name
+  error - lib\screens\trips\create_trip_screen.dart:133:5 - A function body must be provided. Try adding a function body. - missing_function_body
+  error - lib\screens\trips\create_trip_screen.dart:133:5 - Methods must have an explicit list of parameters. Try adding a parameter list. - missing_method_parameters
+  error - lib\screens\trips\create_trip_screen.dart:133:5 - Operator declarations must be preceded by the keyword 'operator'. Try adding the keyword 'operator'. - missing_keyword_operator
+  error - lib\screens\trips\create_trip_screen.dart:133:5 - The string '?' isn't a user-definable operator. - invalid_operator
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - A function body must be provided. Try adding a function body. - missing_function_body
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'attractions' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'cityCtrl' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'dateCtrl' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'feeCtrl' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'picker' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'result' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:7 - Can't define the 'const' constructor because the field 'selectedLanguages' is initialized with a non-constant value. Try initializing the field to a constant value, or removing the keyword 'const' from the constructor. - const_constructor_with_field_initialized_by_non_const
+  error - lib\screens\trips\create_trip_screen.dart:133:13 - A constant constructor can't call a non-constant super constructor of '_CreateTripScreenState'. Try calling a constant constructor in the superclass, or removing the keyword 'const' from the constructor. - const_constructor_with_non_const_super
+  error - lib\screens\trips\create_trip_screen.dart:133:13 - The name of a constructor must match the name of the enclosing class. - invalid_constructor_name
+  error - lib\screens\trips\create_trip_screen.dart:133:25 - Named parameters must be enclosed in curly braces ('{' and '}'). Try surrounding the named parameters in curly braces. - named_parameter_outside_group
+  error - lib\screens\trips\create_trip_screen.dart:133:25 - Using a colon as the separator before a default value is no longer supported. Try replacing the colon with an equal sign. - obsolete_colon_for_default_value
+  error - lib\screens\trips\create_trip_screen.dart:133:27 - The default value of an optional parameter must be constant. - non_constant_default_value
+  error - lib\screens\trips\create_trip_screen.dart:134:7 - '' isn't a field in the enclosing class. Try correcting the name to match an existing field, or defining a field named ''. - initializer_for_non_existent_field
+  error - lib\screens\trips\create_trip_screen.dart:134:7 - Expected an assignment after the field name. To initialize a field, use the syntax 'name = value'. - missing_assignment_in_initializer
+  error - lib\screens\trips\create_trip_screen.dart:134:7 - Invalid constant value. - invalid_constant
+  error - lib\screens\trips\create_trip_screen.dart:135:20 - Undefined name 'trips'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\trips\create_trip_screen.dart:137:24 - Undefined name 'trips'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\trips\create_trip_screen.dart:144:17 - The instance member 'context' can't be accessed in an initializer. Try replacing the reference to the instance member with a different expression - implicit_this_reference_in_initializer
+  error - lib\screens\trips\create_trip_screen.dart:152:3 - A function body must be provided. Try adding a function body. - missing_function_body
+  error - lib\screens\trips\create_trip_screen.dart:152:3 - Const constructors can't have a body. Try removing either the 'const' keyword or the body. - const_constructor_with_body
+warning - lib\screens\trips\create_trip_screen.dart:15:7 - The declaration '<unnamed>' isn't referenced. Try removing the declaration of '<unnamed>'. - unused_element
+warning - lib\screens\trips\create_trip_screen.dart:132:7 - The declaration '_CreateTripScreenState.isEmpty' isn't referenced. Try removing the declaration of '_CreateTripScreenState.isEmpty'. - unused_element
+warning - lib\screens\trips\create_trip_screen.dart:133:20 - A value for optional parameter 'child' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+   info - lib\screens\trips\create_trip_screen.dart:107:32 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - lib\screens\trips\create_trip_screen.dart:108:28 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - lib\screens\trips\create_trip_screen.dart:129:5 - Missing type annotation. Try adding a type annotation. - strict_top_level_inference
+   info - lib\screens\trips\create_trip_screen.dart:133:5 - Empty constructor bodies should be written using a ';' rather than '{}'. Try replacing the constructor body with ';'. - empty_constructor_bodies
+   info - lib\screens\trips\create_trip_screen.dart:133:5 - Missing type annotation. Try adding a type annotation. - strict_top_level_inference
+   info - lib\screens\trips\create_trip_screen.dart:133:20 - Missing type annotation. Try adding a type annotation. - strict_top_level_inference
+   info - lib\screens\trips\create_trip_screen.dart:152:3 - Empty constructor bodies should be written using a ';' rather than '{}'. Try replacing the constructor body with ';'. - empty_constructor_bodies
+
+44 issues found.
